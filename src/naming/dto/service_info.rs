@@ -10,6 +10,7 @@ pub struct ServiceInfo {
 
     pub group_name: String,
 
+    #[serde(default)]
     pub clusters: String,
 
     pub cache_millis: i64,
